@@ -27,6 +27,7 @@ target 'AppCenterSample' do
   pod 'AppCenter/Analytics', '~> 1.7.1'
   pod 'AppCenterReactNativeShared', '~> 1.6.0'
   pod 'TensorFlow-experimental'
+  platform :ios, '9.0'
 end
 
 use_frameworks! # required for projects with Swift sources
